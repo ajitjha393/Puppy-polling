@@ -1,1 +1,4 @@
-# Understanding Rxjs Better 
+# Puppy Polling
+
+Choose from your favorite dog pics!
+
