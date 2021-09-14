@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rxjs</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="logo">
+				<h2 class="logo-name">Reactive Programming</h2>
+			</div>
+		</header>
+
+		<div id="app">
+			<h1>Puppy Polling</h1>
+			<h3>
+				Start polling to request random
+				<a href="https://random.dog/">Dog</a> images!
+			</h3>
+
+			<p>
+				Polling Status :
+				<span id="polling-status">Stopped</span>
+			</p>
+
+			<div>
+				<button id="start">Start Polling</button>
+				<button id="stop">Stop Polling</button>
+			</div>
+			<img
+				id="dog"
+				style="max-width: 400px; max-height: 400px"
+				src="https://random.dog/10fa025a-b04a-47d7-bfed-98747269b6c2.jpg"
+				alt="Dog!"
+			/>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
